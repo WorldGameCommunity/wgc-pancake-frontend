@@ -61,6 +61,14 @@ export const USDT_BSC = new ERC20Token(
   'https://tether.to/',
 )
 
+export const WGC_BSC = new ERC20Token(
+  ChainId.BSC,
+  '0x62Fb3FaB9B15D4ECAd7699960f3F93F947f1fb77',
+  18,
+  'WGC',
+  'WGC',
+)
+
 export const USDT_ETH = new ERC20Token(
   ChainId.ETHEREUM,
   '0xdAC17F958D2ee523a2206206994597C13D831ec7',
@@ -128,6 +136,10 @@ export const USDC = {
 export const USDT = {
   [ChainId.BSC]: USDT_BSC,
   [ChainId.ETHEREUM]: USDT_ETH,
+}
+
+export const WGC = {
+  [ChainId.BSC]: WGC_BSC,
 }
 
 export const WBTC_ETH = new ERC20Token(
