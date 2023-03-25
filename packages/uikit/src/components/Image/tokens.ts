@@ -754,7 +754,7 @@ const tokens = {
     address: {
       56: '0x62Fb3FaB9B15D4ECAd7699960f3F93F947f1fb77',
     },
-    decimals: 18,
+    decimals: 8,
   },
   btcb: {
     symbol: "BTCB",

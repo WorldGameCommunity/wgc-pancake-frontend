@@ -58,7 +58,7 @@
       "symbol": "WGC",
       "address": "0x62Fb3FaB9B15D4ECAd7699960f3F93F947f1fb77",
       "chainId": 56,
-      "decimals": 18
+      "decimals": 8
     },
     {
       "name": "PancakeSwap Token",
