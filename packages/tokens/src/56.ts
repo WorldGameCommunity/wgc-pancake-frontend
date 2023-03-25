@@ -1,4 +1,5 @@
 import { ChainId, WBNB, ERC20Token } from '@pancakeswap/sdk'
+import { WGC_BSC } from '.'
 import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
 
 export const bscTokens = {
@@ -103,6 +104,7 @@ export const bscTokens = {
     'Binance BTC',
     'https://bitcoin.org/',
   ),
+  wgc: WGC_BSC,
   ust: new ERC20Token(
     ChainId.BSC,
     '0x23396cF899Ca06c4472205fC903bDB4de249D6fC',

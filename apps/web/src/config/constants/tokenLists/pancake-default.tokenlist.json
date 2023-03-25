@@ -8,7 +8,10 @@
   },
   "tags": {},
   "logoURI": "https://pancakeswap.finance/logo.png",
-  "keywords": ["pancake", "default"],
+  "keywords": [
+    "pancake",
+    "default"
+  ],
   "tokens": [
     {
       "name": "Wrapped BNB",
@@ -49,6 +52,13 @@
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
+    },
+    {
+      "name": "WGC",
+      "symbol": "WGC",
+      "address": "0x62Fb3FaB9B15D4ECAd7699960f3F93F947f1fb77",
+      "chainId": 56,
+      "decimals": 18
     },
     {
       "name": "PancakeSwap Token",
