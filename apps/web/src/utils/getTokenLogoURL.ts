@@ -1,6 +1,7 @@
 import { getAddress } from '@ethersproject/address'
 import memoize from 'lodash/memoize'
 import { ChainId, Token } from '@pancakeswap/sdk'
+import { WGC_BSC } from '@pancakeswap/tokens'
 
 const mapping = {
   [ChainId.BSC]: 'smartchain',
@@ -9,6 +10,9 @@ const mapping = {
 
 const getTokenLogoURL = memoize(
   (token?: Token) => {
+    if (token && token.address === WGC_BSC.address) {
+      return `${window.location.origin}/images/tokens/${token.address}.png`
+    }
     if (token && mapping[token.chainId]) {
       return `https://assets-cdn.trustwallet.com/blockchains/${mapping[token.chainId]}/assets/${getAddress(
         token.address,
